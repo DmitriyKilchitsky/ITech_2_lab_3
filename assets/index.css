@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f5;
+  font-family: 'Trebuchet MS';
+}
+
+#content_wrapper {
+  margin: 40px 40px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  padding-bottom: 30px;
+}
+
+h3,
+h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+select,
+input {
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
